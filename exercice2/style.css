@@ -2,5 +2,22 @@
     width: 100px;
     height: 100px;
     background: red;
+    animation-name: bgchange;
+    animation-duration: 3s;
+    position: absolute;
+    animation-iteration-count: infinite;
 }
 
+@keyframes bgchange {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: limegreen;
+    }
+}
